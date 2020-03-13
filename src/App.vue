@@ -1,28 +1,36 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header :basket="basket" :removeBasketList="removeBasketList" />
+    <MainSection :products="products" :basket="basket" />
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainSection from "./components/mainSection/MainSection.vue";
+import Header from "./components/header/Header.vue";
+import Footer from "./components/footer/Footer.vue";
+
+import productsList from "./assets/product-list/products.json";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    MainSection,
+    Header,
+    Footer
+  },
+  data() {
+    return {
+      basket: [],
+      products: [...productsList]
+    };
+  },
+  methods: {
+    removeBasketList() {
+      this.basket.forEach(product => (product.counter = 0));
+      return (this.basket = []);
+    }
   }
-}
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

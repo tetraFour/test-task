@@ -1,0 +1,19 @@
+.new-listings
+    direction: rtl
+    height: $new-listings-height
+    overflow: hidden
+
+    ul
+        // width: $new-listings-width
+        direction: ltr
+
+        li
+            margin-bottom: $base-indent - 3px
+
+            &:hover
+                .product-card-wrapper
+                    filter: blur(4px)
+                    background: rgba(white, 0.1)
+
+                .product-card-form
+                    opacity: 1

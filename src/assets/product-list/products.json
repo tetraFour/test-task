@@ -1,0 +1,563 @@
+[
+  {
+    "id": 1,
+    "name": "USED Antminer S9<br/>10.5-14.5 th/s",
+    "isBest": true,
+    "img": "./assets/imgs/products/14.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 137
+    },
+    "counter": 0
+  },
+  {
+    "id": 2,
+    "name": "Antminer DR5<br/>35 Th/s",
+    "img": "./assets/imgs/products/3.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 650
+    },
+    "counter": 0
+  },
+  {
+    "id": 3,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 4,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 5,
+    "name": "USED Antminer S9<br/>10.5-14.5 th/s",
+    "isBest": true,
+    "img": "./assets/imgs/products/14.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 137
+    },
+    "counter": 0
+  },
+  {
+    "id": 6,
+    "name": "Antminer DR5<br/>35 Th/s",
+    "img": "./assets/imgs/products/3.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 650
+    },
+    "counter": 0
+  },
+  {
+    "id": 7,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 8,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 9,
+    "name": "USED Antminer S9<br/>10.5-14.5 th/s",
+    "isBest": true,
+    "img": "./assets/imgs/products/14.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 137
+    },
+    "counter": 0
+  },
+  {
+    "id": 10,
+    "name": "Antminer DR5<br/>35 Th/s",
+    "img": "./assets/imgs/products/3.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 650
+    },
+    "counter": 0
+  },
+  {
+    "id": 11,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 12,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 13,
+    "name": "USED Antminer S9<br/>10.5-14.5 th/s",
+    "isBest": true,
+    "img": "./assets/imgs/products/14.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 137
+    },
+    "counter": 0
+  },
+  {
+    "id": 14,
+    "name": "Antminer DR5<br/>35 Th/s",
+    "img": "./assets/imgs/products/3.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 650
+    },
+    "counter": 0
+  },
+  {
+    "id": 15,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 16,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 17,
+    "name": "USED Antminer S9<br/>10.5-14.5 th/s",
+    "isBest": true,
+    "img": "./assets/imgs/products/14.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 137
+    },
+    "counter": 0
+  },
+  {
+    "id": 18,
+    "name": "Antminer DR5<br/>35 Th/s",
+    "img": "./assets/imgs/products/3.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 650
+    },
+    "counter": 0
+  },
+  {
+    "id": 19,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 20,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 21,
+    "name": "USED Antminer S9<br/>10.5-14.5 th/s",
+    "isBest": true,
+    "img": "./assets/imgs/products/14.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 137
+    },
+    "counter": 0
+  },
+  {
+    "id": 22,
+    "name": "Antminer DR5<br/>35 Th/s",
+    "img": "./assets/imgs/products/3.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 650
+    },
+    "counter": 0
+  },
+  {
+    "id": 23,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 24,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 25,
+    "name": "USED Antminer S9<br/>10.5-14.5 th/s",
+    "isBest": true,
+    "img": "./assets/imgs/products/14.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 137
+    },
+    "counter": 0
+  },
+  {
+    "id": 26,
+    "name": "Antminer DR5<br/>35 Th/s",
+    "img": "./assets/imgs/products/3.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 650
+    },
+    "counter": 0
+  },
+  {
+    "id": 27,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 28,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 29,
+    "name": "USED Antminer S9<br/>10.5-14.5 th/s",
+    "isBest": true,
+    "img": "./assets/imgs/products/14.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 137
+    },
+    "counter": 0
+  },
+  {
+    "id": 30,
+    "name": "Antminer DR5<br/>35 Th/s",
+    "img": "./assets/imgs/products/3.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 650
+    },
+    "counter": 0
+  },
+  {
+    "id": 31,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 32,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 33,
+    "name": "USED Antminer S9<br/>10.5-14.5 th/s",
+    "isBest": true,
+    "img": "./assets/imgs/products/14.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 137
+    },
+    "counter": 0
+  },
+  {
+    "id": 34,
+    "name": "Antminer DR5<br/>35 Th/s",
+    "img": "./assets/imgs/products/3.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 650
+    },
+    "counter": 0
+  },
+  {
+    "id": 35,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 36,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 37,
+    "name": "USED Antminer S9<br/>10.5-14.5 th/s",
+    "isBest": true,
+    "img": "./assets/imgs/products/14.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 137
+    },
+    "counter": 0
+  },
+  {
+    "id": 38,
+    "name": "Antminer DR5<br/>35 Th/s",
+    "img": "./assets/imgs/products/3.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 650
+    },
+    "counter": 0
+  },
+  {
+    "id": 39,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 40,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 41,
+    "name": "USED Antminer S9<br/>10.5-14.5 th/s",
+    "isBest": true,
+    "img": "./assets/imgs/products/14.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 137
+    },
+    "counter": 0
+  },
+  {
+    "id": 42,
+    "name": "Antminer DR5<br/>35 Th/s",
+    "img": "./assets/imgs/products/3.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 650
+    },
+    "counter": 0
+  },
+  {
+    "id": 43,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 44,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 45,
+    "name": "USED Antminer S9<br/>10.5-14.5 th/s",
+    "isBest": true,
+    "img": "./assets/imgs/products/14.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 137
+    },
+    "counter": 0
+  },
+  {
+    "id": 46,
+    "name": "Antminer DR5<br/>35 Th/s",
+    "img": "./assets/imgs/products/3.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 650
+    },
+    "counter": 0
+  },
+  {
+    "id": 47,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 48,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  },
+  {
+    "id": 49,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  }, {
+    "id": 50,
+    "name": "GPU Enclosure<br/>12 cards",
+    "img": "./assets/imgs/products/4.png",
+    "isPSU": true,
+    "price": {
+      "isDiscount": false,
+      "basePrice": 1385
+    },
+    "counter": 0
+  }
+]

@@ -1,0 +1,136 @@
+@import ./header/basket-wrapper
+
+header
+    margin-bottom: $base-indent * 4
+
+    nav
+        display: none
+
+        &.base
+            display: block
+
+        &.show
+            display: block
+            position: fixed
+            top: 0
+            left: 0
+            bottom: 0
+            right: 0
+            height: 100%
+            width: 100%
+            z-index: 100
+            padding: $base-indent * 3 + 5px
+
+    ul
+        display: flex
+        align-items: center
+        position: relative
+
+        li
+            padding: 0 ($base-indent / 2)
+
+            a, button
+                text-transform: uppercase
+                font-weight: bold
+                font-size: 14px
+                display: flex
+                align-items: center
+
+            &.lang
+                margin-right: auto
+
+                svg
+                    margin-right: $base-indent / 2
+
+            &.menu
+                position: absolute
+                top: 0
+                left: 50%
+                transform: translate(-50%, 0)
+
+            &.account
+                padding-right: $base-indent / 2
+
+                svg
+                    &:first-child
+                        margin-right: $base-indent / 3 - 2px
+
+                    &:last-child
+                        margin-left: $base-indent / 3 - 2px
+
+            &.basket
+                svg
+                    margin-left: $base-indent / 3 + 2px
+
+            &:first-child
+                padding-left: 0
+
+            &:last-child
+                padding-right: 0
+
+            &.three-dots
+                position: relative
+
+                &::after
+                    content: ""
+                    position: absolute
+                    top: 50%
+                    right: -3px
+                    width: 5px
+                    height: 13px
+                    transform: translate(0, -50%)
+                    background: url("/assets/imgs/base-icons/three-dots.svg") no-repeat center
+
+            &.notifications
+                position: relative
+
+    .show
+        opacity: 0.98
+        background-color: $header-open-bg
+
+        ul
+            display: flex
+            flex-direction: column
+            position: relative
+
+            li
+                margin-bottom: $base-indent * 3
+                padding: 0
+                position: relative
+
+                &::before
+                    content: ""
+                    position: absolute
+                    height: 10px
+                    width: 2px
+                    background: url("/assets/imgs/base-icons/three-dots.svg") no-repeat center
+                    background-size: contain
+                    bottom: -110%
+                    left: 50%
+                    transform: rotate(90deg) translate(-50%, 0)
+
+                &:first-child
+                    &::before
+                        content: none
+
+                &:last-child
+                    margin-bottom: 0
+
+                    &::before
+                        content: none
+
+                a
+                    font-size: 30px
+                    font-weight: normal
+                    text-transform: uppercase
+
+        .text-bg
+            font-size: 500px
+            opacity: 0.02
+            color: white
+            position: absolute
+            top: 50%
+            left: 30%
+            z-index: -1
+            font-weight: bold
+            transform: rotate(45deg)

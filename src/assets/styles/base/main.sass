@@ -1,0 +1,125 @@
+*, ::before, ::after
+    padding: 0
+    margin: 0
+    color: white
+    box-sizing: border-box
+    font-size: 16px
+    font-family: "Exo", sans-serif
+
+    // font-family: 'Open Sans', sans-serif;
+
+html, body, #app
+    background-color: $main-bg
+    height: 100%
+
+body
+    &.menu-active
+        overflow: hidden
+
+#app
+    padding-top: $base-indent
+
+ul, ol, dl
+    li
+        list-style: none
+
+a
+    display: block
+    text-decoration: none
+
+h2
+    font-size: $medium-font-size
+    font-weight: 500
+    text-transform: uppercase
+    margin-bottom: $base-indent
+    text-align: left
+
+.container
+    width: 100%
+    margin: 0 auto
+
+    @media screen and (min-width: $device-width-small)
+        width: $device-width-small
+
+    @media screen and (min-width: $device-width-medium)
+        width: $device-width-medium
+
+    @media screen and (min-width: $device-width-large)
+        width: $device-width-large
+
+    @media screen and (min-width: $device-width-full)
+        width: $device-width-full
+
+.corner-dots
+    position: relative
+    border: 1px solid transparent
+
+    &::before, &::after
+        content: ""
+        position: absolute
+        width: calc(100% + 2px)
+        height: 2px
+        left: -1px
+        border-left: 2px solid white
+        border-right: 2px solid white
+
+    &::before
+        top: -1px
+
+    &::after
+        bottom: -1px
+        top: initial
+
+button
+    display: block
+    border: none
+    background: transparent
+    cursor: pointer
+
+    &:focus
+        outline: none
+
+.custom-scrollbar
+    height: $on-sale-height
+    overflow: auto
+    direction: rtl
+    margin-right: $scroll-bar-width * 2
+    padding-left: $base-indent - 3px
+
+    &::-webkit-scrollbar
+        width: $scroll-bar-width
+        background-color: #F5F5F5
+
+    &::-webkit-scrollbar-track
+        background-color: gray
+        border-left: 3px solid #0B0C23
+        border-right: 3px solid #0B0C23
+
+    &::-webkit-scrollbar-thumb
+        padding-top: $base-indent / 3
+        background-color: white
+        border-bottom: 7px solid #0B0C23
+        border-top: 7px solid #0B0C23
+
+input[type="text"],
+input[type="search"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+textarea
+    width: 100%
+    padding-left: $base-indent / 3 - 1px
+    background: transparent
+    color: $title-card
+    height: 30px
+    outline: none
+    border: none
+
+.clearfix
+    clear: both
+
+    &::before
+        content: ""
+        display: block
+        clear: both

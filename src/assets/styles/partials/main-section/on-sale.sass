@@ -1,0 +1,27 @@
+.on-sale
+    // width: $on-sale-width
+    height: 766px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    flex-wrap: nowrap
+    padding-left: $base-indent - 3px
+
+    ul
+        width: $on-sale-width
+        direction: ltr
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+
+        li
+            margin-bottom: $base-indent - 3px
+            border: 1px solid rgba(white, 0.1)
+
+            &:hover
+                .product-card-wrapper
+                    filter: blur(4px)
+                    background: rgba(white, 0.1)
+
+                .product-card-form
+                    opacity: 1
